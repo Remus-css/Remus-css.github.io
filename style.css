@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.title
+{ margin-top: 30px;
+position:relative ;
+left:70px ;
+}
+.logo-name__logotype
+{
+   position: relative;
+    top: 80px;
+    left: 10px;
+}
+.logo-name__list
+{
+    display :flex;
+justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    position: relative;
+    left: 300px;
+}
+.logo-name__list__type1
+{
+    position: relative;
+    right:20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.logo-name__list__type2
+{
+    position: relative;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.logo-name__list__type3{
+    position: relative;
+    left: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logo-name__list__type4{
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.img1 {
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.img1-alltext
+{
+    display: block;
+ position: relative;
+bottom: 60px;
+    font-size:30px;
+
+
+}
+
+.img1__img1__alltext--title
+{
+font-size: 60px;
+
+
+}
+
+.img1-picture
+{
+display: flex;
+
+}
+.imgs2
+{
+
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+
+    
+}
+.text
+{
+    list-style: none;
+  display: flex;  
+ flex-direction: row;
+ justify-content: space-between;
+    margin-bottom: 25px;
+}
+.text__text__bottom1--subtitle1 {
+    text-align: center;
+    position: relative;
+    left: 20px;
+    color: skyblue;
+    font-size: 30px;
+}
+.text__text__bottom2--subtitle2
+{
+    text-align: center;
+    position: relative;
+    left: 10px;
+    color: skyblue;
+    font-size: 30px;
+}
+.text__text__bottom3--subtitle3
+{
+    text-align: center;
+    position: relative;
+    right: 30px;
+color: skyblue;
+    font-size: 30px;
+}
+.para__item
+{
+ font-size: 60px;
+
+}
+.img5
+{
+
+     margin-bottom: 20px;
+    margin-right:20px;
+}
+.img5__image{
+  display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+.img5__text{
+    display:flex ;
+    text-align:center;
+    position: relative;
+    top: 60px;
+    justify-content: space-between;
+    align-items:flex-end ;
+
+
+}
