@@ -1,0 +1,239 @@
+*{
+   margin: 0;
+    padding: 0;
+}
+body
+{
+    background: rgba(37, 37, 126, 0.11);
+    width: 960px;
+    height: 1000px;
+}
+.card
+{
+    display: flex;
+   
+    padding: 25px;
+    flex-direction: row;
+    max-width: 880px;
+    height: 1050px;
+    
+
+}
+.container
+{
+display: flex;
+max-width: 860px;
+height:1030px;
+}
+
+.main-img
+{
+width: 440px;
+}
+.image-text__main-img
+{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+
+    background: aqua;
+    background-size: 50px 60px;
+    border: 2px solid aqua;
+
+}
+.image-text__smallimg
+{
+    display: flex;
+    width: 40px;
+flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    bottom: 100px;
+    left: 450px;
+
+}
+
+
+
+.img3
+
+
+{
+    position: relative;
+right: 40px;
+
+
+}
+
+.alltext
+{
+    display: flex;
+flex-direction: column;
+    
+     max-width:350px ;
+    height: 530px;
+    background: white;
+
+
+
+
+
+
+
+}
+.alltext__title1{
+    text-align: center;
+font-size: 40px;
+
+}
+
+.alltext__title2
+{
+  text-align: center;
+
+
+}
+
+.alltext__text
+{
+display: block;
+flex-direction: column;
+font-family: Arial sans-serif;
+    font-size: 15px;
+padding: 8px;
+
+}
+.text__2{
+    padding-top: 15px;
+}
+.text__3{
+    padding-top: 15px;
+
+}
+.text__4{
+    padding-top: 15px;
+
+}
+.text__5{
+padding-top: 15px;
+
+}
+.title
+{
+
+  display: flex;
+flex-direction: row;
+justify-content: space-around;
+    padding-top: 20px;
+    list-style: none;
+    color: gray;
+}
+.box
+{
+  padding-top: 30px;
+padding-left: 40px;
+}
+.alltext__price{
+    margin-top: 5px;
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+}
+
+.price__bigp1
+{
+
+   color: aqua;
+    font-size: 30px;
+}
+.price__smallp2{
+font-size: 10px;
+    color: darkgrey;
+    padding-top: 15px;
+}
+
+
+
+.table1
+{
+ width: 100px;
+   border: 1px solid gray;
+}
+.chart
+{
+  border: 2px solid gray;
+}
+.chart__1
+{
+text-align: center;
+}
+.chart__2
+{
+border-left: 1px solid gray;
+text-align: center;
+}
+.chart__3
+{
+border-left: 1px solid gray;
+    text-align: center;
+}
+.alltext__block
+{
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 100px;
+
+}
+.block__tab1
+{
+    width: 30%;
+height:30px ;
+
+    
+    font-size: 20px;
+color: white;
+    border: 1px solid #09c2ff;
+    background: #09c2ff;
+    text-align: center;
+}
+
+ .block__tab2 {
+     width: 40%;
+     height: 30px;
+     text-align: center;
+     font-size: 20px;
+     
+     
+     color: gray;
+     border: 1px solid gray;
+ }
+
+.block__tab2:hover
+{
+   cursor: pointer;
+}
+.block__tab1:hover
+{
+    cursor: pointer;
+}
+
+@media screen and(max-width: 400px)
+{
+    .alltext
+    {
+       display: flex;
+        
+    }
+}
+@media screen and(max-width: 400px) {
+.image-text__smallimg
+{
+   background: red;
+}
+}
